@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <mesta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewsport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" hsrefs="https://fontss.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    
+
+    <title>Mini portifólio</title>
+</head>
+<body>
+    <!--primeira parte da aula -->
+    <main class="cartao">
+        <div class="minhas-informacoes">
+            <img src="./src/img/foto_de_perfil.jpeg" alt="Minha foto de perfil">
+            <h1 class="nome">Vinícius de Piava</h1>
+            <h2 class="cargo">Desenvolvedor Fronted Júnior</h2>
+        </div>
+
+        <div class="conteudo">
+            <ul class="abas">
+                <li class="aba selecionado" id="sobre-mim">
+                    <img src="./src/img/sobre.gif" alt="aba sobre">
+                </li>
+                <li class="aba" id="minhas-redes">
+                    <img src="./src/img/coracao.gif" alt="aba coração">
+                </li>
+            </ul>
+
+            <div class="informacoes-abas">
+               <div class="informacao selecionado" id="informacao-sobre-mim">
+                    <h3 class="sub-titulo">Sobre</h3>
+
+                    <div class="descricao">
+                        <p>Oi! meu nome é Vinícius de Paiva Mendonça Silva, seja bem-vindo(a)!</p>
+
+                        <p>Sou uma pessoa apaixonada pela programação desde que eu tinha 15
+                            anos. Sempre tive o sonho de trabalhar com programação e
+                            atualmente comecei a colocar esse sonho em prática estudando
+                            <span>HTML, CSS e JavaScript.</span> 
+                            Gosto muito de café (até demais), e meus principais hobbies são
+                            jogar MMO RPG, ver animes e séries.
+                        </p>
+                    </div>
+               </div>
+          <div class="informacao" id="informacao-minhas-redes">
+                <h3>Minhas Redes</h3>       
+              <ul class="redes-sociais">
+                <li>
+                 <a href="" class="curricolo">Curricolo</a>
+                </li>
+                <li>
+                    <a href="" class="linkendin">Linkendin</a>
+                 </li>
+                 <li>
+                    <a href="https://github.com/projvinipaiva" class="github">Github</a>
+                </li>
+              </ul>
+             </div>
+          </div>
+        </div>   
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
